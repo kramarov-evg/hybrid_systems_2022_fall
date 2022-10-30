@@ -1,0 +1,9 @@
+# Ignore matlab internal files
+**/slprj
+
+# Ignore autosaves
+**/*.autosave
+**/*.asv
+
+# Ignore compiled simulink models
+**/*.slxc
