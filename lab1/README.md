@@ -28,12 +28,7 @@ the ball's properties change. I.e. th speed changes to the same speed in the
 opposite direction, reduced by the "bounciness" coefficient. So, the general
 system of equations, that describes dynamics of the ball speed, can be written
 as follows, considering $\lambda$ is the coefficient of "bounciness":
-$$
-\begin{cases}
-  \dot{q} = -g, q > 0 \\
-  \dot{q} = -\dot{q} \cdot \lambda, q \le 0
-\end{cases}
-$$
+$$\left\lbrace \matrix {\dot{q} = -g, q > 0 \cr \dot{q} = -\dot{q} \cdot \lambda, q \le 0} \right.$$
 
 This information is enough to create a simulink model of the system, using
 hybrid equations toolbox.
